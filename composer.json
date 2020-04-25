@@ -1,5 +1,5 @@
 {
-    "name": "socialiteproviders/microsoft-adfs",
+    "name": "axitbv/microsoft-adfs",
     "description": "Microsoft ADFS OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [{
