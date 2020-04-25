@@ -1,0 +1,20 @@
+{
+    "name": "socialiteproviders/microsoft-adfs",
+    "description": "Microsoft ADFS OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "authors": [{
+        "name": "Joost Jacobs",
+        "email": "j.jacobs@xit.nl"
+    }],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~2.0 || ~3.0",
+        "lcobucci/jwt": "^3.3",
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\ADFS\\": ""
+        }
+    }
+}
